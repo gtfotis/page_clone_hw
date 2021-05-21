@@ -1,0 +1,268 @@
+element.style {}
+
+:root {
+    --newCommunityTheme-actionIcon: #818384;
+    --newCommunityTheme-actionIconAlpha20: rgba(129, 131, 132, 0.2);
+    --newCommunityTheme-actionIconAlpha50: rgba(129, 131, 132, 0.5);
+    --newCommunityTheme-actionIconShaded80: #676869;
+    --newCommunityTheme-actionIconTinted80: #9a9b9c;
+    --newCommunityTheme-active: #0079D3;
+    --newCommunityTheme-activeAlpha10: rgba(0, 121, 211, 0.1);
+    --newCommunityTheme-activeAlpha20: rgba(0, 121, 211, 0.2);
+    --newCommunityTheme-activeAlpha50: rgba(0, 121, 211, 0.1);
+    --newCommunityTheme-activeLight60: #33a8ff;
+    --newCommunityTheme-activeShaded80: #0060a8;
+    --newCommunityTheme-activeShaded90: #006cbd;
+    --newCommunityTheme-activeTinted05: #f2f8fc;
+    --newCommunityTheme-banner-backgroundColor: #2d97e5;
+    --newCommunityTheme-banner-backgroundImage: initial;
+    --newCommunityTheme-banner-backgroundImagePosition: cover;
+    --newCommunityTheme-banner-communityNameFormat: slashtag;
+    --newCommunityTheme-banner-height: 64;
+    --newCommunityTheme-banner-iconColor: #0079D3;
+    --newCommunityTheme-banner-iconDimensions-borderRadius: 24;
+    --newCommunityTheme-banner-iconDimensions-customSize: 32;
+    --newCommunityTheme-banner-iconDimensions-padding: 6;
+    --newCommunityTheme-banner-iconDimensions-size: 24;
+    --newCommunityTheme-banner-iconImage: initial;
+    --newCommunityTheme-banner-lineHeight: 38;
+    --newCommunityTheme-banner-positionedImage: initial;
+    --newCommunityTheme-banner-positionedImageAlignment: left;
+    --newCommunityTheme-banner-positionedImageHeight: 48;
+    --newCommunityTheme-banner-secondaryBannerPositionedImage: initial;
+    --newCommunityTheme-body: #1A1A1B;
+    --newCommunityTheme-bodyAlpha50: rgba(26, 26, 27, 0.5);
+    --newCommunityTheme-bodyAlpha80: rgba(26, 26, 27, 0.8);
+    --newCommunityTheme-bodyFade: #1A1A1B00;
+    --newCommunityTheme-bodyShaded80: #141415;
+    --newCommunityTheme-bodyText: #D7DADC;
+    --newCommunityTheme-bodyTextAlpha03: rgba(215, 218, 220, 0.03);
+    --newCommunityTheme-bodyTextAlpha20: rgba(215, 218, 220, 0.2);
+    --newCommunityTheme-bodyTextShaded20: #2b2b2c;
+    --newCommunityTheme-bodyTextTinted20: #f7f7f8;
+    --newCommunityTheme-bodyTinted50: #8c8c8d;
+    --newCommunityTheme-bodyTinted80: #474748;
+    --newCommunityTheme-button: #D7DADC;
+    --newCommunityTheme-buttonAlpha05: rgba(215, 218, 220, 0.05);
+    --newCommunityTheme-buttonAlpha10: rgba(215, 218, 220, 0.1);
+    --newCommunityTheme-buttonAlpha20: rgba(215, 218, 220, 0.2);
+    --newCommunityTheme-buttonAlpha40: rgba(215, 218, 220, 0.4);
+    --newCommunityTheme-buttonAlpha50: rgba(215, 218, 220, 0.5);
+    --newCommunityTheme-buttonAlpha80: rgba(215, 218, 220, 0.8);
+    --newCommunityTheme-buttonShaded80: #acaeb0;
+    --newCommunityTheme-buttonTinted20: #f7f7f8;
+    Show All Properties (204 more)
+}
+
+:root {
+    --newCommunityTheme-actionIcon: #818384;
+    --newCommunityTheme-actionIconAlpha20: rgba(129, 131, 132, 0.2);
+    --newCommunityTheme-actionIconAlpha50: rgba(129, 131, 132, 0.5);
+    --newCommunityTheme-actionIconShaded80: #676869;
+    --newCommunityTheme-actionIconTinted80: #9a9b9c;
+    --newCommunityTheme-active: #0079D3;
+    --newCommunityTheme-activeAlpha10: rgba(0, 121, 211, 0.1);
+    --newCommunityTheme-activeAlpha20: rgba(0, 121, 211, 0.2);
+    --newCommunityTheme-activeAlpha50: rgba(0, 121, 211, 0.1);
+    --newCommunityTheme-activeLight60: #33a8ff;
+    --newCommunityTheme-activeShaded80: #0060a8;
+    --newCommunityTheme-activeShaded90: #006cbd;
+    --newCommunityTheme-activeTinted05: #f2f8fc;
+    --newCommunityTheme-banner-backgroundColor: #2d97e5;
+    --newCommunityTheme-banner-backgroundImage: initial;
+    --newCommunityTheme-banner-backgroundImagePosition: cover;
+    --newCommunityTheme-banner-communityNameFormat: slashtag;
+    --newCommunityTheme-banner-height: 64;
+    --newCommunityTheme-banner-iconColor: #0079D3;
+    --newCommunityTheme-banner-iconDimensions-borderRadius: 24;
+    --newCommunityTheme-banner-iconDimensions-customSize: 32;
+    --newCommunityTheme-banner-iconDimensions-padding: 6;
+    --newCommunityTheme-banner-iconDimensions-size: 24;
+    --newCommunityTheme-banner-iconImage: initial;
+    --newCommunityTheme-banner-lineHeight: 38;
+    --newCommunityTheme-banner-positionedImage: initial;
+    --newCommunityTheme-banner-positionedImageAlignment: left;
+    --newCommunityTheme-banner-positionedImageHeight: 48;
+    --newCommunityTheme-banner-secondaryBannerPositionedImage: initial;
+    --newCommunityTheme-body: #1A1A1B;
+    --newCommunityTheme-bodyAlpha50: rgba(26, 26, 27, 0.5);
+    --newCommunityTheme-bodyAlpha80: rgba(26, 26, 27, 0.8);
+    --newCommunityTheme-bodyFade: #1A1A1B00;
+    --newCommunityTheme-bodyShaded80: #141415;
+    --newCommunityTheme-bodyText: #D7DADC;
+    --newCommunityTheme-bodyTextAlpha03: rgba(215, 218, 220, 0.03);
+    --newCommunityTheme-bodyTextAlpha20: rgba(215, 218, 220, 0.2);
+    --newCommunityTheme-bodyTextShaded20: #2b2b2c;
+    --newCommunityTheme-bodyTextTinted20: #f7f7f8;
+    --newCommunityTheme-bodyTinted50: #8c8c8d;
+    --newCommunityTheme-bodyTinted80: #474748;
+    --newCommunityTheme-button: #D7DADC;
+    --newCommunityTheme-buttonAlpha05: rgba(215, 218, 220, 0.05);
+    --newCommunityTheme-buttonAlpha10: rgba(215, 218, 220, 0.1);
+    --newCommunityTheme-buttonAlpha20: rgba(215, 218, 220, 0.2);
+    --newCommunityTheme-buttonAlpha40: rgba(215, 218, 220, 0.4);
+    --newCommunityTheme-buttonAlpha50: rgba(215, 218, 220, 0.5);
+    --newCommunityTheme-buttonAlpha80: rgba(215, 218, 220, 0.8);
+    --newCommunityTheme-buttonShaded80: #acaeb0;
+    --newCommunityTheme-buttonTinted20: #f7f7f8;
+    Show All Properties (204 more)
+}
+
+:root {
+    --newCommunityTheme-actionIcon: #818384;
+    --newCommunityTheme-actionIconAlpha20: rgba(129, 131, 132, 0.2);
+    --newCommunityTheme-actionIconAlpha50: rgba(129, 131, 132, 0.5);
+    --newCommunityTheme-actionIconShaded80: #676869;
+    --newCommunityTheme-actionIconTinted80: #9a9b9c;
+    --newCommunityTheme-active: #0079D3;
+    --newCommunityTheme-activeAlpha10: rgba(0, 121, 211, 0.1);
+    --newCommunityTheme-activeAlpha20: rgba(0, 121, 211, 0.2);
+    --newCommunityTheme-activeAlpha50: rgba(0, 121, 211, 0.1);
+    --newCommunityTheme-activeLight60: #33a8ff;
+    --newCommunityTheme-activeShaded80: #0060a8;
+    --newCommunityTheme-activeShaded90: #006cbd;
+    --newCommunityTheme-activeTinted05: #f2f8fc;
+    --newCommunityTheme-banner-backgroundColor: #2d97e5;
+    --newCommunityTheme-banner-backgroundImage: initial;
+    --newCommunityTheme-banner-backgroundImagePosition: cover;
+    --newCommunityTheme-banner-communityNameFormat: slashtag;
+    --newCommunityTheme-banner-height: 64;
+    --newCommunityTheme-banner-iconColor: #0079D3;
+    --newCommunityTheme-banner-iconDimensions-borderRadius: 24;
+    --newCommunityTheme-banner-iconDimensions-customSize: 32;
+    --newCommunityTheme-banner-iconDimensions-padding: 6;
+    --newCommunityTheme-banner-iconDimensions-size: 24;
+    --newCommunityTheme-banner-iconImage: initial;
+    --newCommunityTheme-banner-lineHeight: 38;
+    --newCommunityTheme-banner-positionedImage: initial;
+    --newCommunityTheme-banner-positionedImageAlignment: left;
+    --newCommunityTheme-banner-positionedImageHeight: 48;
+    --newCommunityTheme-banner-secondaryBannerPositionedImage: initial;
+    --newCommunityTheme-body: #1A1A1B;
+    --newCommunityTheme-bodyAlpha50: rgba(26, 26, 27, 0.5);
+    --newCommunityTheme-bodyAlpha80: rgba(26, 26, 27, 0.8);
+    --newCommunityTheme-bodyFade: #1A1A1B00;
+    --newCommunityTheme-bodyShaded80: #141415;
+    --newCommunityTheme-bodyText: #D7DADC;
+    --newCommunityTheme-bodyTextAlpha03: rgba(215, 218, 220, 0.03);
+    --newCommunityTheme-bodyTextAlpha20: rgba(215, 218, 220, 0.2);
+    --newCommunityTheme-bodyTextShaded20: #2b2b2c;
+    --newCommunityTheme-bodyTextTinted20: #f7f7f8;
+    --newCommunityTheme-bodyTinted50: #8c8c8d;
+    --newCommunityTheme-bodyTinted80: #474748;
+    --newCommunityTheme-button: #D7DADC;
+    --newCommunityTheme-buttonAlpha05: rgba(215, 218, 220, 0.05);
+    --newCommunityTheme-buttonAlpha10: rgba(215, 218, 220, 0.1);
+    --newCommunityTheme-buttonAlpha20: rgba(215, 218, 220, 0.2);
+    --newCommunityTheme-buttonAlpha40: rgba(215, 218, 220, 0.4);
+    --newCommunityTheme-buttonAlpha50: rgba(215, 218, 220, 0.5);
+    --newCommunityTheme-buttonAlpha80: rgba(215, 218, 220, 0.8);
+    --newCommunityTheme-buttonShaded80: #acaeb0;
+    --newCommunityTheme-buttonTinted20: #f7f7f8;
+    Show All Properties (204 more)
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+button,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+input,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html[Attributes Style] {
+    -webkit-locale: "en-US";
+}
+
+user agent stylesheet html {
+    display: block;
+}
